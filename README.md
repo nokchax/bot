@@ -21,3 +21,23 @@
   - 필요에 따라 페이지 별로 로그인 정보(id, pw, login url)를 저장해야 한다.
 
 - 페이지별 크롤 정보가 여러개 존재할 수 있다.
+
+## domain
+- crawl
+  - 아래 도메인(page, target, filter, notification)들을 포함.
+  - crawl type
+  - crawl term
+  - last crawl info
+- page
+  - 크롤하려는 페이지와 태그까지만??
+  - page url
+  - target tag
+- target
+- filter
+  - 태그로 부터 원하는 정보만 필터링 하기 위함
+  - filter type
+  - result type
+- notification
+  - 알림을 위한 정보
+  - notification type
+  - template
