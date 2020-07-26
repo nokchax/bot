@@ -28,15 +28,22 @@
   - crawl type
   - crawl term
   - last crawl info
+  - on/off boolean
+- login
+  - login page
+  - id
+  - pw (암호화 적용)
+  - auto login
 - page
   - 크롤하려는 페이지와 태그까지만??
   - page url
   - target tag
 - target
-- filter
+- filter (필터는 여러개가 존재할 수 있으며, 등록된 순서대로 필터링을 해야한다)
   - 태그로 부터 원하는 정보만 필터링 하기 위함
   - filter type
   - result type
+  - order (unique)
 - notification
   - 알림을 위한 정보
   - notification type
