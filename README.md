@@ -28,7 +28,7 @@
   - crawl type
   - crawl term
   - last crawl info
-  - on/off boolean
+  - active status (boolean)
 - login
   - login page
   - id
