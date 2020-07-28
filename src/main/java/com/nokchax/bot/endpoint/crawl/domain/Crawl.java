@@ -13,5 +13,7 @@ public class Crawl {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
+    private String name;
     private boolean isActive;
+    private String lastCrawlInfo; // 여기 아니면 history?
 }
