@@ -12,6 +12,7 @@ public class Filter {
     private int id;
     //embedded
     private int order;
+    private String targetType; // string or tag
     private FilterType filterType;
     private ResultType resultType;
 }
