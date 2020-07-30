@@ -3,6 +3,7 @@ package com.nokchax.bot.endpoint.crawl.domain;
 import lombok.Data;
 
 import javax.persistence.*;
+import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -15,6 +16,7 @@ public class Crawl {
     private String name;
     private boolean isActive;
     private String lastCrawlInfo; // 여기 아니면 history?
+    private LocalDateTime lastCrawlTime;
 
     @OrderBy("id desc")
     @OneToMany
