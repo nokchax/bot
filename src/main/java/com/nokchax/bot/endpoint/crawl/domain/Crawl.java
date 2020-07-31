@@ -17,6 +17,7 @@ public class Crawl {
     private boolean isActive;
     private String lastCrawlInfo; // 여기 아니면 history?
     private LocalDateTime lastCrawlTime;
+    private LocalDateTime crawlTerm;
 
     @OrderBy("id desc")
     @OneToMany
