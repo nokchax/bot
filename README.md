@@ -26,7 +26,8 @@
 - crawl
   - 아래 도메인(page, target, filter, notification)들을 포함.
   - crawl type
-  - crawl term
+  - crawl term (cron expression 을 사용)
+  - next crawl time
   - last crawl info
   - active status (boolean)
 - login
