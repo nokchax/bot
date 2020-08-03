@@ -12,4 +12,5 @@ public class Filter {
     private TargetType targetType;
     private FilterType filterType;
     private ResultType resultType;
+    private String pattern;
 }

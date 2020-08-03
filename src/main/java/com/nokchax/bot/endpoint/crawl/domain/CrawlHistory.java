@@ -14,4 +14,6 @@ public class CrawlHistory {
     @GeneratedValue
     private int id;
     private LocalDateTime crawlTime;
+    private Result result;
+    private String comment;
 }
