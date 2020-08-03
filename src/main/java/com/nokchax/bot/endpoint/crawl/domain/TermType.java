@@ -3,6 +3,8 @@ package com.nokchax.bot.endpoint.crawl.domain;
 import java.time.LocalDateTime;
 import java.util.function.BiFunction;
 
+// use this
+// https://stackoverflow.com/questions/23835171/cronexpression-parsing-into-java-date
 public enum TermType {
     SECOND(LocalDateTime::plusSeconds),
     MINUTE(LocalDateTime::plusMinutes),
