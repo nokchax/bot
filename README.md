@@ -22,6 +22,11 @@
 
 - 페이지별 크롤 정보가 여러개 존재할 수 있다.
 
+- 매분 DB를 조회해서 crawl time이 분단위로 일치하는 크롤 정보를 가져와 크롤을 수행한다.
+  - 이때 DB에 크롤에 대한 기록을 남긴다
+  - 크롤일 끝나면 다음 크롤 정보를 업데이트 한다.
+  - hibernate enver를 사용해본다?
+
 ## domain
 - crawl
   - 아래 도메인(page, target, filter, notification)들을 포함.
