@@ -13,6 +13,6 @@ public class Notification {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
-    private NotiType notiType;
+    private NotificationType notificationType;
     private String template; // replace {{key}} -> value
 }

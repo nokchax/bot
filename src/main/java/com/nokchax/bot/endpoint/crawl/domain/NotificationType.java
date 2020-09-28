@@ -1,6 +1,6 @@
 package com.nokchax.bot.endpoint.crawl.domain;
 
-public enum NotiType {
+public enum NotificationType {
     ALWAYS,
     UPDATED,
     NOT_UPDATED
