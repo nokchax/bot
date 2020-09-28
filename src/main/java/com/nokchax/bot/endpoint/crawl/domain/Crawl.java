@@ -22,7 +22,7 @@ public class Crawl {
     private LocalDateTime lastCrawlTime; // 마지막 크롤 시간, 업데이트 시에는 크롤한 시간으로 대채
 
     @OrderBy("id desc")
-    @OneToMany
+    @OneToMany(fetch = FetchType.LAZY)
     private List<CrawlHistory> histories = new ArrayList<>();
 
     /* example
