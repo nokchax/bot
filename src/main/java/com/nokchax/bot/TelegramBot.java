@@ -1,6 +1,5 @@
 package com.nokchax.bot;
 
-import com.nokchax.bot.config.AppProperties;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
@@ -11,8 +10,7 @@ import org.telegram.telegrambots.meta.api.objects.Update;
 @Component
 @RequiredArgsConstructor
 public class TelegramBot extends TelegramLongPollingBot {
-    private final AppProperties properties;
-    
+
     @Override
     public void onUpdateReceived(Update update) {
 

@@ -5,7 +5,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 
 @Data
 @ConfigurationProperties(prefix = "telegram-bot")
-public class TelegramBot {
+public class Bot {
     private String name;
     private String token;
 }
